@@ -1,9 +1,18 @@
 SYNOPSIS
 ========
 
-int function strpos( string haystack, mixed needle, int $offset = 0 )
+.. function:: strpos(haystack, value, [, offset=0])
 
-Find the position of the first occurrence of a substring in a string
+   Find the position of the first occurrence of a substring in a string.
+
+   :param haystack: String being searched
+   :param needle: String being searched for
+   :param offset: Search offset from beginning of string
+   :type haystack: string
+   :type value: mixed
+   :type offset: integer
+   :rtype: Position of needle
+
 
 DESCRIPTION
 ===========
@@ -14,11 +23,10 @@ PARAMETERS
 ==========
 
 -  ``$haystack`` The string to search in
--  ``$needle`` If ``$needle`` is not a string, it is converted to an
-   integer and applied as the ordinal value of a character.
+-  ``$needle`` If ``$needle`` is not a string, it is converted to an integer and applied as the ordinal value of a character.
 -  ``$offset`` If specified, [search will start][0] this number of
    characters counted from the beginning of the string. Unlike
-   [FUNCTION:STRRPOS] and [FUNCTION:STRRIPOS], the offset cannot be
+   :func:`strrpos` and :func:`stripos`, the offset cannot be
    negative.
 
 RETURN VALUE
