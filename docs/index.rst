@@ -32,10 +32,12 @@ needle was not found. [SNIPPET:RETURN.FALSEPROBLEM]
 CHANGELOG
 =========
 
-| Version | Description
----
-| 5.2.6 | Something cool happened
-| 5.2.2 | If the `$offset` parameter indicates the position of a negative truncation or beyond, false is returned. Other versions get the string from start.
+================  ============================================================
+Version           Description
+================  ============================================================
+5.2.6             Something cool happened
+5.2.2             If the `$offset` parameter indicates the position of a negative truncation or beyond, false is returned. Other versions get the string from start.
+================  ============================================================
 
 
 EXAMPLES
