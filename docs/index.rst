@@ -126,3 +126,5 @@ See also
 - `<strpbrk>`_
 - `<substr>`_
 - `<preg_match>`_
+
+.. _FALSE: false
