@@ -3,13 +3,10 @@ Synopsis
 
 Find the position of the first occurrence of a substring in a string
 
-.. py:function:: int strpos(string $heystack, mixed $needle, [, mixed $offset=0])
 
 Or
 
 .. function:: strpos(string haystack, mixed value, [, integer offset=0])
-
-   Find the position of the first occurrence of a substring in a string.
 
    :param haystack: String being searched
    :param needle: String being searched for
