@@ -60,7 +60,7 @@ Examples
 
 Using ===
 ---------
-.. code:: php
+Code::
 
     <?php
     $mystring = 'abc';
