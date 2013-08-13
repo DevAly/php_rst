@@ -5,7 +5,17 @@ Find the position of the first occurrence of a substring in a string
 
 .. py:function:: int strpos(string $heystack, mixed $needle, [, mixed $offset=0])
 
+Or
 
+.. function:: strpos(string haystack, mixed value, [, integer offset=0])
+
+   :param haystack: String being searched
+   :param needle: String being searched for
+   :param offset: Search offset from beginning of string
+   :type haystack: string
+   :type value: mixed
+   :type offset: integer
+   :rtype: Position of needle
 
 Description
 ===========
@@ -70,7 +80,7 @@ Using ===
 
 Using !==
 ---------
-.. code:: php
+Code::
 
     <?php
     $mystring = 'abc';
@@ -90,7 +100,7 @@ Using !==
 
 Using an offset
 ---------------
-.. code:: php
+Code::
 
     <?php
     // We can search for the character, ignoring anything before the offset
